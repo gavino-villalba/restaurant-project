@@ -1,0 +1,199 @@
+
+.rest {
+  #float:left;
+  padding:20px;
+  #z-index: 3;
+  #width: 101.04px;
+  #height: 48px;
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+
+
+#bienvenido {
+ 
+  #width: 543px;
+  #height: 155px;
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.txt-1{
+  color: #ffffff;
+  font-family: "Roboto Light";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.book{
+  width: 170px;
+  height: 48px;
+  border-radius: 3px;
+  background-color: #6327eb; 
+
+  color: #ffffff;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.see{
+  width: 170px;
+  height: 48px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+  }
+.darkButton {
+  z-index: 3;
+  width: 170px;
+  height: 48px;
+}
+
+.rectangle {
+  z-index: 4;
+  width: 170px;
+  height: 48px;
+  border-radius: 3px;
+  background: #6327eb;
+}
+.button {
+  z-index: 4;
+  width: 99.24px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+#historia_1{
+  position:absolute;
+  z-index:1;
+  width:100%;
+  height:100%;
+}
+.historia{
+  background-color: #f9f7f2;
+}
+
+
+.welcome {
+  background-image:
+    linear-gradient(
+      #333333,
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../imagenes/reserva.png");
+/*height: 480px;
+width: 720px;*/
+
+}
+
+#principal {
+	width:100%;
+}
+
+#nav_header  {
+  
+	#width:70%;
+	/*max-width:1000px;*/
+	margin:20px auto;
+}
+#nav_header div{
+  float:left;
+}
+#redes {
+  float:right;
+}
+
+.menu_bar {
+	display:none;
+}
+
+#nav_header  ul {
+	overflow:hidden;
+	list-style:none;
+}
+
+#nav_header  ul li {
+	float:left;
+}
+
+#nav_header  ul li a {
+
+  color: #ffffff;
+	padding:20px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: center;
+	display:block;
+	text-decoration:none;
+}
+
+#nav_header  ul li span {
+	margin-right:10px;
+}
+
+/*#nav_header  ul li a:hover {
+	background:#037E8C;
+}*/
+
+
+section {
+	padding:20px;
+}
+
+@media screen and (max-width:800px ) {
+	#nav_headers  {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+	}
+
+	#nav_header  ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+}
