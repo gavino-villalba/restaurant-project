@@ -121,6 +121,12 @@ h2{
   font-weight: 700;
   line-height: 64px;
 }
+h3{
+  color: #ffffff;
+ font-family: "PT Serif";
+ font-weight: 700;
+ line-height: 48px;
+}
 p{
   color: #333333;
   font-family: "Roboto Light";
@@ -138,6 +144,10 @@ p{
 }
 .head_chef{
   color: rgba(51, 51, 51, 0.5);
+}
+
+.gray{
+  color: rgba(255,255,255,0.5);
 }
 
 
@@ -176,6 +186,18 @@ width: 720px;*/
 
 #principal {
 	width:100%;
+}
+
+.nav-pie{
+  margin-left auto; margin-right:auto;
+}
+.nav-pie ul{
+  overflow:hidden;
+	list-style:none;
+}
+
+.nav-pie  ul li {
+	float:left;
 }
 
 #nav_header  {
